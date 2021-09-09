@@ -1,0 +1,61 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background: rgb(255,0,0);
+    background: linear-gradient(52deg, rgba(255,0,0,1) 0%, rgba(255,0,62,1) 0%, rgba(255,70,250,1) 40%, rgba(0,78,255,1) 100%);
+    height: 98.3vh;
+
+}
+
+.drumkit{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    /* border: solid black 2px; */
+    margin-inline: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.drum{
+    padding: 2%;
+    margin-inline: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* border: dashed goldenrod 10px ; */
+    background-color: rgba(255,255,255,0.2);
+    transition: 0.5s; 
+      
+}
+
+.drum:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.drumImg{
+    align-items: center;
+    
+    height: 20vh;
+}
+
+.drumAnimation{
+    animation-duration: 0.5s;
+    animation-name: drumAnimation;
+}
+
+@keyframes drumAnimation{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+

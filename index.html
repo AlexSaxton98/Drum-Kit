@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Drum Kit Challenge</title>
+</head>
+<body onkeypress="drumKey(event)" onclick="drumClick(event)">
+    <audio src="sounds/boom.wav" preload ="auto"></audio>
+    <div class = "drumkit">
+        <div id="bassDrum" class ="drum"><img src ="images/bassDrum_small.png" class="drumImg"></div>
+        <div id="clapCymbal" class ="drum"><img src ="images/clapCymbal_small.png" class="drumImg"></div>
+        <div id="hiHat" class ="drum"><img src ="images/hiHat.png" class="drumImg"></div>
+        <div id="kickDrum" class ="drum"><img src ="images/kickDrum.png" class="drumImg"></div>
+        <div id="openHat" class ="drum"><img src ="images/openHat.png" class="drumImg"></div>
+        <div id="rideCymbal" class ="drum"><img src ="images/rideCymbal.png" class="drumImg"></div>
+        <div id="snareDrum" class ="drum"><img src ="images/snare.png" class="drumImg"></div>
+        <div id="woodDrum" class ="drum"><img src ="images/woodPercussion.png" class="drumImg"></div>
+        <div id="tomDrum" class ="drum"><img src ="images/tomDrum.png" class="drumImg"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
