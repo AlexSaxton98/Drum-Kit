@@ -31,14 +31,14 @@ body{
       
 }
 
-.drum:hover{
+.drumImg:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
 
 .drumImg{
     align-items: center;
-    
+    transition: 0.5s;
     height: 20vh;
 }
 
